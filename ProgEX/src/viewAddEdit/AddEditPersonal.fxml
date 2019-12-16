@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="450.0" maxWidth="300.0" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewAddEdit.AddEditPersonalController">
+   <children>
+      <Label alignment="CENTER" layoutX="108.0" layoutY="273.0" text="Bed" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="117.0" AnchorPane.topAnchor="273.0" />
+      <Label alignment="CENTER" layoutX="112.0" layoutY="222.0" prefHeight="17.0" prefWidth="28.0" text="Room" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="113.0" />
+      <Label alignment="CENTER" layoutX="112.0" layoutY="325.0" text="Doctor" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="113.0" />
+      <Label alignment="CENTER" layoutX="108.0" layoutY="377.0" text="Other Doctors" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="117.0" />
+      <TextField fx:id="name" layoutX="71.0" layoutY="31.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <TextField fx:id="room" layoutX="63.0" layoutY="238.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <TextField fx:id="bed" layoutX="63.0" layoutY="290.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <TextField fx:id="doctor" layoutX="63.0" layoutY="342.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <TextField fx:id="otherDoctors" layoutX="63.0" layoutY="394.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <Label alignment="CENTER" layoutX="130.0" layoutY="14.0" text="Name" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="113.0" />
+      <Label alignment="CENTER" layoutX="137.0" layoutY="66.0" text="First name" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="113.0" />
+      <TextField fx:id="firstname" layoutX="71.0" layoutY="83.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <Label alignment="CENTER" layoutX="132.0" layoutY="118.0" text="Middle name" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="113.0" />
+      <TextField fx:id="middlename" layoutX="71.0" layoutY="135.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <DatePicker fx:id="birthday" layoutX="63.0" layoutY="187.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <Label alignment="CENTER" layoutX="132.0" layoutY="170.0" text="Birthday" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="113.0" />
+   </children>
+</AnchorPane>

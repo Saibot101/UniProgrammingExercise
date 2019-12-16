@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="450.0" maxWidth="300.0" minHeight="450.0" minWidth="300.0" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewAddEdit.AddEditBuildingController">
+   <children>
+      <Label alignment="CENTER" layoutX="114.0" layoutY="10.0" text="Floor number" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0" />
+      <TextField fx:id="floor" layoutX="76.0" layoutY="27.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <Label alignment="CENTER" layoutX="90.0" layoutY="61.0" text="Deprtment number" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0" />
+      <TextField fx:id="department" layoutX="76.0" layoutY="78.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <Label alignment="CENTER" layoutX="91.0" layoutY="113.0" text="Building number" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0" />
+      <TextField fx:id="building" layoutX="76.0" layoutY="130.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+      <Label alignment="CENTER" layoutX="90.0" layoutY="164.0" text="Roominformation" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0" />
+      <TextArea fx:id="information" layoutX="51.0" layoutY="181.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="63.0" />
+   </children>
+</AnchorPane>
